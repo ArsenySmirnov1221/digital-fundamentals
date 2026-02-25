@@ -1,0 +1,7 @@
+print('Название нового реактива', end=': ')
+chemical_name = input()
+chemical_name = chemical_name.lower()
+chemical_name = chemical_name.strip()
+print('количество (целое число)', end=': ')
+chemical_count = int(input())
+print(f'Реактив {chemical_name} поступил на склад в количестве {chemical_count} шт.')
